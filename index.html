@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tailwind CSS</title>
+</head>
+
+<body class="bg-[#030711] font-inter">
+    <!-- navbar start -->
+    <nav class="sticky w-full border-b-[1px] border-[#1D283A] flex justify-center h-16">
+        <div class="w-[95%] lg:w-[85%] h-auto flex flex-row justify-between items-center">
+            <div class="flex flex-row text-white">
+                <img class="w-[53px] h-[60px] mr-14" src="./image/logo.png" alt="">
+                <ul class="hidden xl:flex xl:flex-row lg:gap-x-6 lg:items-center text-[15px]">
+                    <li><a href="#">Docs</a></li>
+                    <li><a href="#">Import</a></li>
+                    <li><a href="#">Blocks</a></li>
+                    <li><a href="#">Full Pages</a></li>
+                    <li><a href="#">Form Builder</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Refer and earn</a></li>
+                </ul>
+            </div>
+
+            <div class="hidden xl:block">
+                <button class="py-2 px-5 text-white bg-slate-900 hover:bg-slate-700 mr-3 rounded-xl">Sing up</button>
+                <button class="py-2 px-5 text-[#030711] bg-white hover:bg-slate-400 rounded-xl">Sing in</button>
+            </div>
+
+            <div class="xl:hidden block">
+                <a class="text-5xl text-white" href="#">&#8801;</a>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- header section start -->
+    <header class="w-full flex justify-center mt-16">
+        <div class="w-90% lg:w-[85%] flex flex-col">
+            <div class="flex flex-col items-center">
+                <h1 class="text-white text-6xl font-[700] hidden lg:block">Create Stunning Tailwind CSS</h1>
+                <h1 class="text-white text-6xl font-[700] lg:mt-3 hidden lg:block">UIs 10x faster.</h1>
+                <h1 class="text-white text-4xl font-[700] lg:hidden text-center w-[90%]">Create Stunning Tailwind CSS
+                    UIs 10x
+                    faster.</h1>
+            </div>
+            <div class="flex justify-center mt-6">
+                <div class="w-[90%] lg:w-[53%]">
+                    <p class="text-[#a0a7b8] text-xl text-center font-[400]">Windframe is an AI-enhanced Visual tailwind
+                        builder
+                        and editor for rapidly prototyping and
+                        building stunning webpages using tailwind css. Speed up your web development process and ship in
+                        minutes not weeks.</p>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button
+                    class="text-white mt-8 py-3 px-8 bg-slate-900 rounded-xl text-xl font-bold hover:bg-slate-600">Get
+                    Started</button>
+            </div>
+            <div class="flex justify-center items-center mt-12">
+                <div class="relative h-auto w-[90%] group">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-400 via-pink-500 to-blue-400 rounded-xl blur-md lg:blur-lg">
+                    </div>
+                    <video autoplay loop muted
+                        class="relative rounded-xl shadow-xl shadow-cyan-500/10 border-none outline-none">
+                        <source src="./image/mainvideo.mp4" type="video/mp4">
+                        <source src="./image/mainvideo.mp4" type="video/ogg">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- how it works section start -->
+    <section class="w-full mt-36">
+        <div class="flex flex-col items-center">
+            <div class="mb-14">
+                <h1 class="text-4xl font-[700] text-white">How it works</h1>
+            </div>
+            <div class="flex flex-wrap lg:flex-row justify-between w-[85%] lg:w-[85%] lg:gap-6 gap-y-12">
+                <div class="flex flex-col lg:w-[389px] h-auto">
+                    <div class="mb-5 lg:mb-8">
+                        <img src="./image/work1.avif" alt="">
+                    </div>
+                    <div class="text-white">
+                        <h3 class="mb-5 text-[20px] lg:text-[18px] font-[600]">Build from scratch or select prebuilt
+                            tailwind templates</h3>
+                        <p class="text-[17px] lg:text-[16px] text-[#a0a7b8]">Choose from a directory of 1000+ tailwind
+                            css templates. These tailwind css blocks were professionally crafted to fit different needs
+                            ranging from landing, saas, portfolio, about us, contact us etc. and are constantly being
+                            updated with new website templates</p>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:w-[389px] h-auto">
+                    <div class="mb-5 lg:mb-8">
+                        <img src="./image/work2.avif" alt="">
+                    </div>
+                    <div class="text-white">
+                        <h3 class="mb-5 text-[20px] lg:text-[18px] font-[600]">Create or Customize the designs with
+                            numerous options</h3>
+                        <p class="text-[17px] lg:text-[16px] text-[#a0a7b8]">Preview your designs in the tailwind
+                            builder to see how they render on a webpage and save them easily when you are done. You can
+                            come back when you wish to continue working on it or export the code from your designs to
+                            use elsewhere or host on your own server</p>
+                    </div>
+                </div>
+                <div class="flex flex-col lg:w-[389px] h-auto">
+                    <div class="mb-5 lg:mb-8">
+                        <img src="./image/work3.avif" alt="">
+                    </div>
+                    <div class="text-white">
+                        <h3 class="mb-5 text-[20px] lg:text-[18px] font-[600]">Preview designs, save and export code
+                        </h3>
+                        <p class="text-[17px] lg:text-[16px] text-[#a0a7b8]">Preview your designs in the tailwind
+                            builder to see how they render on a webpage and save them easily when you are done. You can
+                            come back when you wish to continue working on it or export the code from your designs to
+                            use elsewhere or host on your own server</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- how it works section end -->
+
+    <!-- logo section start -->
+    <section class="w-full mt-16 flex flex-col items-center">
+        <div class="text-center">
+            <h1 class="text-white text-[48px] font-[700]">Featured In</h1>
+        </div>
+        <div class="w-[90%] lg:w-[85%] flex justify-center lg:justify-between mt-8 flex-wrap gap-y-8 gap-x-10">
+            <div class="flex justify-start">
+                <img class="h-[60px] w-auto" src="./image/Featured1.avif" alt="">
+            </div>
+            <div class="flex justify-start">
+                <img class="h-[60px] w-auto" src="./image/Featured2.avif" alt="">
+            </div>
+            <div class="flex justify-start">
+                <img class="h-[60px] w-auto" src="./image/Featured3.avif" alt="">
+            </div>
+            <div class="flex justify-start">
+                <img class="h-[60px] w-auto" src="./image/Featured4.avif" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- logo section start -->
+
+    <!-- video section 1 start-->
+    <section class="w-full mt-32 lg:mt-44 flex justify-center">
+        <div class="w-[90%] lg:w-[85%] flex justify-between flex-col lg:flex-row">
+            <div class="w-full lg:w-[45%]">
+                <h1 class="text-white text-[30px] lg:text-[48px] font-[700] leading-[36px] lg:leading-[48px]">Visually
+                    create webpages and export to Html, React or Vue</h1>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">Create and edit beautiful designs and prototypes and export
+                    the code to use in your project right away.</p>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">Windframe as a tailwind builder and editor makes it possible
+                    to visually create webpages and make edits to them in real time. This webpages can then be easily
+                    exported to different formats like <span class="font-[700] text-white">HTML, REACT OR VUE.</span>
+                </p>
+                <div class="relative">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-700 via-pink-800 to-green-800 rounded-xl blur-md lg:blur-lg h-[51px] mt-12 w-[160px]">
+                    </div>
+                    <button
+                        class="relative py-3 px-8 bg-slate-900 hover:bg-slate-700 rounded-xl text-[18px] text-white font-[700] mt-12">Get
+                        Started</button>
+                </div>
+            </div>
+            <div class="w-full lg:w-[45%] flex justify-center items-center mt-12 rotate-3">
+                <div class="relative">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-400 via-pink-500 to-blue-400 rounded-xl blur-md lg:blur-lg">
+                    </div>
+                    <video autoplay muted loop
+                        class="relative rounded-xl shadow-xl shadow-cyan-500/10 border-none outline-none">
+                        <source src="./image/video1.mp4" type="video/mp4">
+                        <source src="./image/video1.mp4" type="video/ogg">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- video section 1 end-->
+
+    <!-- video section 2 start-->
+    <section class="w-full mt-24 lg:mt-44 flex justify-center">
+        <div class="w-[90%] lg:w-[85%] flex justify-between flex-col lg:flex-row">
+            <div class="w-full lg:w-[45%] flex justify-center items-center mt-12 -rotate-3">
+                <div class="relative">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-400 via-pink-500 to-blue-400 rounded-xl blur-md lg:blur-lg">
+                    </div>
+                    <video autoplay muted loop
+                        class="relative rounded-xl shadow-xl shadow-cyan-500/10 border-none outline-none">
+                        <source src="./image/video2.mp4" type="video/mp4">
+                        <source src="./image/video2.mp4" type="video/ogg">
+                    </video>
+                </div>
+            </div>
+            <div class="w-full lg:w-[45%] mt-10 lg:mt-0">
+                <h1 class="text-white text-[30px] lg:text-[48px] font-[700] leading-[36px] lg:leading-[48px]">Generate
+                    and edit UIs using Windframe AI</h1>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">Create stunning UIs in seconds with Windframe AI. Import your
+                    components and let AI handle tasks like responsive design, element alignment, and dark/light mode
+                    variants.</p>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">Windframe AI ensures design consistency across projects by
+                    generating consistent templates from a single master template. With visual editing capabilities, you
+                    can quickly iterate and fine-tune your designs, saving you time.</span></p>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">Experience the future of UI design with Windframe AI. Unlock
+                    endless possibilities for creating beautiful and cohesive designs effortlessly.</p>
+                <div class="relative">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-700 via-pink-800 to-green-800 rounded-xl blur-md lg:blur-lg h-[51px] mt-12 w-[190px]">
+                    </div>
+                    <button
+                        class="relative py-3 px-8 bg-slate-900 hover:bg-slate-700 rounded-xl text-[18px] text-white font-[700] mt-12">See
+                        AI in action</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- video section 2 end-->
+
+    <!-- video section 3 start-->
+    <section class="w-full mt-24 lg:mt-44 flex justify-center">
+        <div class="w-[90%] lg:w-[85%] flex justify-between flex-col lg:flex-row">
+            <div class="w-full lg:w-[45%]">
+                <h1 class="text-white text-[24px] lg:text-[40px] font-[700] leading-[32px] lg:leading-[48px]">Import
+                    your websites and favorite UI libraries, like Tailwind UI, Flowbite, and Daisy UI, and easily
+                    customize them to make them unique to your project.</h1>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">Easily import your own tailwind css websites, templates,
+                    projects and components into windframe and edit it in seconds. Windframe allows you to not only
+                    create new webpages with it, but also import your own templates and projects. Which you can visually
+                    edit with endless options using an intuitive interface.</p>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">You can use windframe seamlessly with any UI Library or
+                    template based on tailwind css. E.g Tailwind UI</p>
+                <div class="relative">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-700 via-pink-800 to-green-800 rounded-xl blur-md lg:blur-lg h-[51px] mt-12 w-[209px]">
+                    </div>
+                    <button
+                        class="relative py-3 px-8 bg-slate-900 hover:bg-slate-700 rounded-xl text-[18px] text-white font-[700] mt-12">Import
+                        a template</button>
+                </div>
+            </div>
+            <div class="w-full lg:w-[45%] flex justify-center items-center mt-12 rotate-3">
+                <div class="relative">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-400 via-pink-500 to-blue-400 rounded-xl blur-md lg:blur-lg">
+                    </div>
+                    <video autoplay muted loop
+                        class="relative rounded-xl shadow-xl shadow-cyan-500/10 border-none outline-none">
+                        <source src="./image/video3.mp4" type="video/mp4">
+                        <source src="./image/video3.mp4" type="video/ogg">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- video section 3 end-->
+
+    <!-- photo section 1 start-->
+    <section class="w-full mt-24 lg:mt-36 flex justify-center">
+        <div class="w-[90%] lg:w-[85%] flex justify-between flex-col lg:flex-row">
+            <div class="w-full lg:w-[45%] flex justify-center items-center mt-12">
+                <img src="./image/photo.webp" alt="">
+            </div>
+            <div class="w-full lg:w-[45%] mt-10 lg:mt-0 lg:flex lg:flex-col lg:justify-center">
+                <h1 class="text-white text-[30px] lg:text-[48px] font-[700] leading-[36px] lg:leading-[48px]">Build
+                    stunning dashboards and admin web apps</h1>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">Create stunning and functional tailwind css dashboards and
+                    admin apps in no time using our tailwind css builder and editor.</p>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">Easily customize your dashboard with a range of widgets and
+                    charts. Choose from a variety of stunning pre-designed templates, or start from scratch and create
+                    your own unique design. With our powerful editing tools, you can easily tweak and fine-tune your
+                    design until it's just right.</p>
+            </div>
+        </div>
+    </section>
+    <!-- photo section 1 end-->
+
+    <!-- video section 4 start -->
+    <header class="w-full flex justify-center mt-24 lg:mt-36">
+        <div class="w-90% lg:w-[85%] flex flex-col items-center">
+            <div class="flex flex-col items-center w-[95%] lg:w-[80%]">
+                <h1
+                    class="text-white text-6xl font-[400] text-[30px] leading-[36px] lg:text-[48px] lg:leading-[48px] text-center">
+                    Build with your own Tailwind CSS UI library and unlock massive editor advantages</h1>
+            </div>
+            <div class="flex justify-center">
+                <button
+                    class="text-white mt-12 py-3 px-8 bg-transparent border-white border-2 rounded-xl text-xl font-bold hover:bg-white hover:text-[#030711]">Start
+                    building for free</button>
+            </div>
+            <div class="flex justify-center items-center mt-16">
+                <div class="relative h-auto w-[90%] group">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-400 via-pink-500 to-blue-400 rounded-xl blur-md lg:blur-lg">
+                    </div>
+                    <video autoplay loop muted
+                        class="relative rounded-xl shadow-xl shadow-cyan-500/10 border-none outline-none">
+                        <source src="./image/video4.mp4" type="video/mp4">
+                        <source src="./image/video4.mp4" type="video/ogg">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- video section 4 end -->
+
+    <!-- language logo section start -->
+    <div class="w-full flex justify-center mt-36 lg:mt-56">
+        <div class="w-[90%] lg:w-[80%] flex flex-col items-center">
+            <div>
+                <h1 class="text-white font-[700] text-[36px] lg:text-6xl">Export code to</h1>
+            </div>
+            <div class="flex flex-wrap justify-between w-full gap-8 mt-8">
+                <div class="flex flex-col items-center">
+                    <img class="w-[50px] h-[58px]" src="./image/html.svg" alt="">
+                    <p class="text-white text-[20px] font-[400]">HTML</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="w-[50px] h-[58px]" src="./image/react.svg" alt="">
+                    <p class="text-white text-[20px] font-[400]">React</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="w-[50px] h-[58px]" src="./image/gatsby.svg" alt="">
+                    <p class="text-white text-[20px] font-[400]">Gatsby</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="w-[55px] h-[58px] rounded-full" src="./image/next.jpeg" alt="">
+                    <p class="text-white text-[20px] font-[400]">Next Js</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="w-[50px] h-[58px]" src="./image/vue.svg" alt="">
+                    <p class="text-white text-[20px] font-[400]">Vue Js</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="w-[50px] h-[58px]" src="./image/nuxt.svg" alt="">
+                    <p class="text-white text-[20px] font-[400]">Nuxt Js</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img class="w-[50px] h-[58px]" src="./image/angular.svg" alt="">
+                    <p class="text-white text-[20px] font-[400]">Angular</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- language logo section end -->
+
+    <!-- photo section 2 start-->
+    <section class="w-full mt-24 lg:mt-36 flex justify-center">
+        <div class="w-[90%] lg:w-[85%] flex justify-between flex-col lg:flex-row">
+            <div class="w-full lg:w-[45%] mt-10 lg:mt-0 lg:flex lg:flex-col lg:justify-center">
+                <h1 class="text-white text-[30px] lg:text-[48px] font-[700] leading-[36px] lg:leading-[48px]">Save
+                    countless hours of coding and designing using our intuitive 1000+ templates</h1>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">Windframe features a large collection of beautiful already
+                    built templates made with tailwind css which are regularly updated with new templates.</p>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">You can easily edit these templates in the tailwind builder /
+                    editor to create any type of webpage and save countless hours redesigning from scratch</p>
+            </div>
+            <div class="w-full lg:w-[45%] flex justify-center items-center mt-12">
+                <img src="./image/photo2.webp" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- photo section 2 end-->
+
+    <!-- video section 5 start-->
+    <section class="w-full mt-20 lg:mt-44 flex justify-center">
+        <div class="w-[90%] lg:w-[85%] flex justify-between flex-col lg:flex-row">
+            <div class="w-full lg:w-[45%] flex justify-center items-center mt-12 -rotate-3">
+                <div class="relative">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-400 via-pink-500 to-blue-400 rounded-xl blur-md lg:blur-lg">
+                    </div>
+                    <video autoplay muted loop
+                        class="relative rounded-xl shadow-xl shadow-cyan-500/10 border-none outline-none">
+                        <source src="./image/video5.mp4" type="video/mp4">
+                        <source src="./image/video5.mp4" type="video/ogg">
+                    </video>
+                </div>
+            </div>
+            <div class="w-full lg:w-[45%] mt-10 lg:mt-0">
+                <h1 class="text-white text-[30px] lg:text-[48px] font-[700] leading-[36px] lg:leading-[48px]">Seamlessly
+                    switch between coding and visual building using the code editor</h1>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">This feature allows you to see the code generated from your
+                    designs in real-time without exporting the entire project. You can effortlessly toggle between using
+                    the canvas for editing or directly editing the code.</p>
+                <div class="relative">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-700 via-pink-800 to-green-800 rounded-xl blur-md lg:blur-lg h-[51px] mt-12 w-[180px]">
+                    </div>
+                    <button
+                        class="relative py-3 px-8 bg-slate-900 hover:bg-slate-700 rounded-xl text-[18px] text-white font-[700] mt-12">Start
+                        Building</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- video section 5 end-->
+
+    <!-- photo section 3 start-->
+    <section class="w-full mt-24 lg:mt-36 flex justify-center">
+        <div class="w-[90%] lg:w-[85%] flex justify-between flex-col lg:flex-row">
+            <div class="w-full lg:w-[45%] mt-10 lg:mt-0 lg:flex lg:flex-col lg:justify-center">
+                <h1 class="text-white text-[30px] lg:text-[48px] font-[700] leading-[36px] lg:leading-[48px]">
+                    Effortlessly work with Tailwind classes by utilizing a segmented classes view based on screen sizes.
+                </h1>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">Windframe's segmented classes view makes it so much easier to
+                    work with tailwind classes by segmenting classes for the different screen sizes.</p>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">This allows for a more efficient and streamlined development
+                    process, as you can quickly and easily see which classes are being used for each screen size and
+                    make adjustments as needed.</p>
+            </div>
+            <div class="w-full lg:w-[45%] flex justify-center items-center mt-12">
+                <img src="./image/photo3.webp" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- photo section 3 end-->
+
+    <!-- video section 6 start-->
+    <section class="w-full mt-20 lg:mt-40 flex justify-center">
+        <div class="w-[90%] lg:w-[85%] flex justify-between flex-col lg:flex-row">
+            <div class="w-full lg:w-[45%] flex justify-center items-center mt-12 -rotate-3">
+                <div class="relative">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-400 via-pink-500 to-blue-400 rounded-xl blur-md lg:blur-lg">
+                    </div>
+                    <video autoplay muted loop
+                        class="relative rounded-xl shadow-xl shadow-cyan-500/10 border-none outline-none">
+                        <source src="./image/video5.mp4" type="video/mp4">
+                        <source src="./image/video5.mp4" type="video/ogg">
+                    </video>
+                </div>
+            </div>
+            <div class="w-full lg:w-[45%] mt-10 lg:mt-0">
+                <h1 class="text-white text-[30px] lg:text-[48px] font-[700] leading-[36px] lg:leading-[48px]">Render
+                    designs on various screen sizes and select specific styles for each screen.</h1>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">Windframe makes is possible to easily render designs on
+                    various screensizes and select specific styles for each screen through the built-in responsive
+                    design feature.</p>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">This helps to ensure that designs are optimized for different
+                    devices and screen sizes, making it easier to create web applications/websites that look great and
+                    function smoothly across all devices.</p>
+                <div class="relative">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-700 via-pink-800 to-green-800 rounded-xl blur-md lg:blur-lg h-[51px] mt-12 w-[158px]">
+                    </div>
+                    <button
+                        class="relative py-3 px-8 bg-slate-900 hover:bg-slate-700 rounded-xl text-[18px] text-white font-[700] mt-12">Get
+                        Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- video section 6 end-->
+
+    <!-- work productivity section start -->
+    <section class="w-full flex justify-center mt-24 lg:mt-40">
+        <div class="w-[90%] lg:w-[85%] flex flex-col">
+            <div>
+                <h1
+                    class="text-[30px] leading-[36px] text-white lg:text-[48px] lg:leading-[48px] font-[700] text-center">
+                    Radically improve your work productivity</h1>
+                <p class="text-[16px] leading-[24px] text-[#a0a7b8] mt-6 lg:text-[18px] lg:leading-[28px] text-center">
+                    Easily get more done and ship projects to production in less time than ever before</p>
+            </div>
+            <div class="flex flex-col lg:flex-row lg:flex-wrap justify-between gap-y-8 lg:gap-y-14 mt-10 lg:mt-14">
+                <div class="w-full lg:w-[47%]">
+                    <div class="flex items-center gap-x-4">
+                        <img class="w-[20px] h-[20px] inline" src="./image/right tick.svg" alt="">
+                        <p class="text-[18px] lg:text-[28px] font-[700] text-white">Developer</p>
+                    </div>
+                    <div class="pt-[5px]">
+                        <p class="text-[14px] lg:text-[18px] leading-[20px] lg:leading-[28px] text-[#a0a7b8] pl-[40px]">
+                            Create components, prototypes and webpages for projects needed at work or side projects
+                            without worrying too much about the design. Build your UIs from scratch on windframe or edit
+                            anyone of our regularly updated 1000+ premium template blocks.</p>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-[47%]">
+                    <div class="flex items-center gap-x-4">
+                        <img class="w-[20px] h-[20px] inline" src="./image/right tick.svg" alt="">
+                        <p class="text-[18px] lg:text-[28px] font-[700] text-white">Startup</p>
+                    </div>
+                    <div class="pt-[5px]">
+                        <p class="text-[14px] lg:text-[18px] leading-[20px] lg:leading-[28px] text-[#a0a7b8] pl-[40px]">
+                            Ship components, webpages for your startup to production in minutes and get in front of your
+                            users faster using windframe. You can easily build landing pages,About pages, product pages
+                            and so much more with very minimal effort using windframe while also saving countless of
+                            hours of design and development</p>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-[47%]">
+                    <div class="flex items-center gap-x-4">
+                        <img class="w-[20px] h-[20px] inline" src="./image/right tick.svg" alt="">
+                        <p class="text-[18px] lg:text-[28px] font-[700] text-white">Agency</p>
+                    </div>
+                    <div class="pt-[5px]">
+                        <p class="text-[14px] lg:text-[18px] leading-[20px] lg:leading-[28px] text-[#a0a7b8] pl-[40px]">
+                            Empower your team to build faster and ship high quality designed projects to your clients.
+                            Windframe allows your entire team to jump in and collaborate together on projects, make
+                            prototypes easily and decide on designs quickly together. Invite team members as editors to
+                            projects and let them build together.</p>
+                    </div>
+                </div>
+
+                <div class="w-full lg:w-[47%]">
+                    <div class="flex items-center gap-x-4">
+                        <img class="w-[20px] h-[20px] inline" src="./image/right tick.svg" alt="">
+                        <p class="text-[18px] lg:text-[28px] font-[700] text-white">Designer</p>
+                    </div>
+                    <div class="pt-[5px]">
+                        <p class="text-[14px] lg:text-[18px] leading-[20px] lg:leading-[28px] text-[#a0a7b8] pl-[40px]">
+                            Design pages on windframe that you can easily export to code without having to write all the
+                            code from scratch. Put together elements and components together the way you want them and
+                            export to code easily using a very familiar interface like other design tools such as figma
+                            and framer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- work productivity section end -->
+
+    <!-- card 1 section start -->
+    <section class="w-full flex justify-center mt-28 sm:mt-36 lg:mt-40">
+        <div class="w-[95%] sm:w-[95%] lg:w-[75%]">
+            <div class="w-full flex justify-center mb-8 sm:mb-10 lg:mb-16">
+                <h1 class="text-[36px] lg:text-[48px] text-white font-[700]">Features</h1>
+            </div>
+            <div class="w-full flex flex-col lg:flex-row lg:flex-wrap sm:flex-row sm:flex-wrap justify-between gap-y-4">
+
+                <div class="w-full sm:w-[49%] lg:w-[32%] bg-[#111827] h-auto rounded-xl">
+                    <div class="text-center p-9 flex flex-col h-full">
+                        <p class="text-4xl text-center text-white">🖥</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] mt-[24px] sm:mt-[40px]">Realtime
+                            editing using an intuitive interface</p>
+                        <p class="text-[16px] text-[#a0a7b8] leading-[24px] mt-[24px] sm:mt-[24px]">Import your websites
+                            and templates and edit them visually (Easily add, remove or edit
+                            anything from your templates or website using an intuitive interface and seeing how it looks
+                            in realtime)</p>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-[49%] lg:w-[32%] bg-[#111827] h-auto rounded-xl">
+                    <div class="text-center p-9 flex flex-col h-full">
+                        <p class="text-4xl text-center text-white">🤖</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] mt-[24px] sm:mt-[40px]">Windframe AI
+                        </p>
+                        <p class="text-[16px] text-[#a0a7b8] leading-[24px] mt-[24px] sm:mt-[24px]">Experience the
+                            future of UI design with Windframe AI. Unlock a world of possibilities for creating
+                            beautiful and cohesive designs in no time.</p>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-[49%] lg:w-[32%] bg-[#111827] h-auto rounded-xl">
+                    <div class="text-center p-9 flex flex-col h-full">
+                        <p class="text-4xl text-center text-white">🔌</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] mt-[24px] sm:mt-[40px]">Prebuilt
+                            Tailwind CSS Templates</p>
+                        <p class="text-[16px] text-[#a0a7b8] leading-[24px] mt-[24px] sm:mt-[24px]">Windframe features a
+                            collection of well crafted tailwind css templates which are regularly updated with new
+                            templates. You can easily kick of any project with the help of numerous sections in the
+                            tailwind builder.</p>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-[49%] lg:w-[32%] bg-[#111827] h-auto rounded-xl">
+                    <div class="text-center p-9 flex flex-col h-full">
+                        <p class="text-4xl text-center text-white">👀</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] mt-[24px] sm:mt-[40px]">Render in
+                            various screensizes and devices</p>
+                        <p class="text-[16px] text-[#a0a7b8] leading-[24px] mt-[24px] sm:mt-[24px]">Easily see how your
+                            website renders in various screen sizes and devices using different screen sizes available
+                            on windframe</p>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-[49%] lg:w-[32%] bg-[#111827] h-auto rounded-xl">
+                    <div class="text-center p-9 flex flex-col h-full">
+                        <p class="text-4xl text-center text-white">🧩</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] mt-[24px] sm:mt-[40px]">Segmented
+                            classes</p>
+                        <p class="text-[16px] text-[#a0a7b8] leading-[24px] mt-[24px] sm:mt-[24px]">See all your
+                            tailwind classes segmented in the classes box into responsive and regular classes. Easily
+                            click on a class to edit it and a delete icon beside it to remove it. Remove or add classes
+                            easily to see how they affect you designs.</p>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-[49%] lg:w-[32%] bg-[#111827] h-auto rounded-xl">
+                    <div class="text-center p-9 flex flex-col h-full">
+                        <p class="text-4xl text-center text-white">✍️</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] mt-[24px] sm:mt-[40px]">Easily undo
+                            and redo changes</p>
+                        <p class="text-[16px] text-[#a0a7b8] leading-[24px] mt-[24px] sm:mt-[24px]">Go back and forth
+                            your changes or updates easily using an undo and redo button.</p>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-[49%] lg:w-[32%] bg-[#111827] h-auto rounded-xl">
+                    <div class="text-center p-9 flex flex-col h-full">
+                        <p class="text-4xl text-center text-white">📍</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] mt-[24px] sm:mt-[40px]">History of
+                            Edits</p>
+                        <p class="text-[16px] text-[#a0a7b8] leading-[24px] mt-[24px] sm:mt-[24px]">Save different
+                            points in history of your projects and easily go back and forth your changes. This enables
+                            you to restore your designs to a previous point in time</p>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-[49%] lg:w-[32%] bg-[#111827] h-auto rounded-xl">
+                    <div class="text-center p-9 flex flex-col h-full">
+                        <p class="text-4xl text-center text-white">👌</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] mt-[24px] sm:mt-[40px]">Well
+                            structured code</p>
+                        <p class="text-[16px] text-[#a0a7b8] leading-[24px] mt-[24px] sm:mt-[24px]">Generate well
+                            structured and indented code for your websites and templates when exporting them using
+                            windframe.</p>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-[49%] lg:w-[32%] bg-[#111827] h-auto rounded-xl">
+                    <div class="text-center p-9 flex flex-col h-full">
+                        <p class="text-4xl text-center text-white">⚡️</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] mt-[24px] sm:mt-[40px]">Well
+                            structured code</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] ">Export to various frameworks</p>
+                        <p class="text-[16px] text-[#a0a7b8] leading-[24px] mt-[24px] sm:mt-[24px]">Go from having just
+                            HTML version of your website to exporting the React and Vuejs code for your
+                            template/website/component you import into windframe.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- card 1 section end -->
+
+    <!-- video section 6 start -->
+    <section class="w-full mt-24 lg:mt-40 flex justify-center">
+        <div class="w-[90%] lg:w-[85%] flex justify-between flex-col lg:flex-row">
+            <div class="w-full lg:w-[45%]">
+                <h1 class="text-white text-[24px] lg:text-[40px] font-[700] leading-[32px] lg:leading-[48px]">Save
+                    different versions of your project history and easily switch between them.</h1>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">Windframe’s version history makes it possible to save
+                    different versions of your projects and easily switch between them, making it easy to keep track of
+                    your progress and experiment with different design ideas.</p>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">This is particularly useful when working on larger projects
+                    or when you want to test out different design options without losing progress. With the version
+                    history, you can easily revert to older versions of your project if needed and keep track of your
+                    work over time.</p>
+            </div>
+            <div class="w-full lg:w-[45%] flex justify-center items-center mt-12 rotate-3">
+                <div class="relative">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-400 via-pink-500 to-blue-400 rounded-xl blur-md lg:blur-lg">
+                    </div>
+                    <video autoplay muted loop
+                        class="relative rounded-xl shadow-xl shadow-cyan-500/10 border-none outline-none">
+                        <source src="./image/video6.mp4" type="video/mp4">
+                        <source src="./image/video6.mp4" type="video/ogg">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- video section 6 end -->
+
+    <!-- photo section 4 start-->
+    <section class="w-full mt-24 lg:mt-36 flex justify-center">
+        <div class="w-[90%] lg:w-[85%] flex justify-between flex-col lg:flex-row">
+            <div class="w-full lg:w-[45%] flex justify-center items-center">
+                <img class="rounded-xl" src="./image/photo4.webp" alt="">
+            </div>
+            <div class="w-full lg:w-[45%] mt-10 lg:mt-0 lg:flex lg:flex-col lg:justify-center">
+                <h1 class="text-white text-[30px] lg:text-[48px] font-[700] leading-[36px] lg:leading-[48px]">
+                    Collaborate with other team members and get better feedback on designs and code</h1>
+                <p class="text-[#a0a7b8] text-[16px] mt-8">Add team members to a project and get feedback on the
+                    designs, prototypes or code you are working on. Easily allow team members to make edits and
+                    corrections to projects</p>
+                <div class="relative">
+                    <div
+                        class="absolute -inset-0.5 bg-gradient-to-r from-yellow-700 via-pink-800 to-green-800 rounded-xl blur-md lg:blur-lg h-[51px] mt-12 w-[220px]">
+                    </div>
+                    <button
+                        class="relative py-3 px-8 bg-slate-900 hover:bg-slate-700 rounded-xl text-[18px] text-white font-[700] mt-12">Start
+                        Collaborating</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- photo section 4 end-->
+
+    <!-- ranking section start -->
+    <section class="w-full my-24 md:my-36">
+        <div class="grid grid-cols-[1fr_1fr] md:grid-cols-[1fr_1fr_1fr_1fr] gap-y-8">
+            <div class="text-center md:border-r md:border-[#cccccc]">
+                <p class="text-[30px] md:text-[48px] font-[700] text-indigo-600">50k+</p>
+                <p class="uppercase text-gray-500 tracking-widest">Designs exported</p>
+            </div>
+            <div class="text-center md:border-r md:border-[#cccccc]">
+                <p class="text-[30px] md:text-[48px] font-[700] text-indigo-600">5k+</p>
+                <p class="uppercase text-gray-500 tracking-widest">saved projects</p>
+            </div>
+            <div class="text-center md:border-r md:border-[#cccccc]">
+                <p class="text-[30px] md:text-[48px] font-[700] text-indigo-600">10k+</p>
+                <p class="uppercase text-gray-500 tracking-widest">users</p>
+            </div>
+            <div class="text-center">
+                <p class="text-[30px] md:text-[48px] font-[700] text-indigo-600">1000+</p>
+                <p class="uppercase text-gray-500 tracking-widest">templates</p>
+            </div>
+        </div>
+    </section>
+    <!-- ranking section end -->
+
+    <!-- card section 2 start -->
+    <section class="w-full flex justify-center">
+        <div class="w-[95%] sm:w-[85%] lg:w-[60%]">
+            <div>
+                <h1 class="text-[30px] sm:text-[36px] lg:text-[48px] text-white font-[700] text-center">We are just
+                    getting started!</h1>
+                <p class="text-gray-400 text-center mt-3">We are creating a tool that helps you be more productive and
+                    efficient when building websites and webapps</p>
+                <p class="text-gray-400 text-center mt-3">Feel free to suggest new features you would like to see on
+                    windframe using our contact page</p>
+            </div>
+            <div
+                class="w-full flex flex-col lg:flex-row lg:flex-wrap sm:flex-row sm:flex-wrap justify-between gap-y-4 mt-8 sm:mt-10 lg:mt-16">
+
+                <div class="w-full sm:w-[49%] lg:w-[49%] bg-[#111827] h-auto rounded-xl">
+                    <div class="text-center p-9 flex flex-col h-full">
+                        <p class="text-4xl text-center text-white">🤝</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] mt-[24px] sm:mt-[40px]">Realtime
+                            Collaboration</p>
+                        <p class="text-[16px] text-[#a0a7b8] leading-[24px] mt-[24px] sm:mt-[24px]">Collaborate in
+                            realtime with other editors in a project. See what othe editors are doing and edit even a
+                            simple text together</p>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-[49%] lg:w-[49%] bg-[#111827] h-auto rounded-xl">
+                    <div class="text-center p-9 flex flex-col h-full">
+                        <p class="text-4xl text-center text-white">🔗</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] mt-[24px] sm:mt-[40px]">Integrations
+                        </p>
+                        <p class="text-[16px] text-[#a0a7b8] leading-[24px] mt-[24px] sm:mt-[24px]">Step up your designs
+                            and workflow with integrations with your favourite tools such as Github, Bitbucket, Vercel
+                            etc</p>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-[49%] lg:w-[49%] bg-[#111827] h-auto rounded-xl">
+                    <div class="text-center p-9 flex flex-col h-full">
+                        <p class="text-4xl text-center text-white">⚙️</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] mt-[24px] sm:mt-[40px]">Alpine JS</p>
+                        <p class="text-[16px] text-[#a0a7b8] leading-[24px] mt-[24px] sm:mt-[24px]">We are bringing
+                            Alpine JS components to the editor. This allows for building more complex web applications
+                            and UIs</p>
+                    </div>
+                </div>
+
+                <div class="w-full sm:w-[49%] lg:w-[49%] bg-[#111827] h-auto rounded-xl">
+                    <div class="text-center p-9 flex flex-col h-full">
+                        <p class="text-4xl text-center text-white">📡</p>
+                        <p class="text-[24px] text-white font-[700] leading-[32px] mt-[24px] sm:mt-[40px]">Custom
+                            Domains</p>
+                        <p class="text-[16px] text-[#a0a7b8] leading-[24px] mt-[24px] sm:mt-[24px]">Attach your own
+                            custom domain to your published projects or website on windframe</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- card section 2 start -->
+
+    <!-- Block Page Templates section start -->
+    <section class="w-full flex justify-center mt-28">
+        <div class="w-[95%] lg:w-[85%]">
+            <div class="text-center">
+                <h1 class="text-white text-[30px] font-[700]">Block and Full Page Templates</h1>
+                <div class="w-full flex justify-center mt-2">
+                    <p class="w-full md:w-[45%] text-white text-[16px] leading-[24px]">Kickstart your project using some
+                        of 1000+ collection of professionally crafted blocks and full-page templates built with Tailwind
+                        CSS 👌</p>
+                </div>
+            </div>
+            <div class="w-full mt-14 sm:my-10">
+                <div class="flex flex-col items-center sm:flex-row justify-between">
+                    <div>
+                        <p class="text-white text-[20px] font-[500]">Windframe Block Templates</p>
+                    </div>
+                    <div class="mt-2 sm:mt-0">
+                        <p class="text-white text-[16px] cursor-pointer hover:border-b hover:border-white">View All ⇾
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="grid sm:grid-cols-[1fr_1fr] md:grid-cols-[1fr_1fr_1fr] lg:grid-cols-[1fr_1fr_1fr_1fr] gap-x-3 mt-6">
+                    <div
+                        class="h-auto sm:h-52 w-full rounded-lg cursor-pointer overflow-hidden bg-white sm:flex flex-col justify-center">
+                        <div>
+                            <img class="w-full h-full object-contain bg-center bg-cover" src="./image/block1.jpeg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="h-52 w-full rounded-lg cursor-pointer overflow-hidden bg-white sm:flex flex-col justify-center hidden">
+                        <div>
+                            <img class="w-full h-full object-contain bg-center bg-cover" src="./image/block2.jpeg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="h-52 w-full rounded-lg cursor-pointer overflow-hidden bg-black md:flex flex-col justify-center hidden">
+                        <div>
+                            <img class="w-full h-full object-contain bg-center bg-cover" src="./image/block3.jpeg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div
+                        class="h-52 w-full rounded-lg cursor-pointer overflow-hidden bg-white lg:flex flex-col justify-center hidden">
+                        <div>
+                            <img class="w-full h-full object-contain bg-center bg-cover" src="./image/block4.jpeg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Block Page Templates section end -->
+
+    <!-- Windframe Full Page Templates section start -->
+    <section class="w-full flex justify-center mt-28">
+        <div class="w-[95%] lg:w-[85%]">
+            <div class="w-full mt-14 sm:my-10">
+                <div class="flex flex-col items-center sm:flex-row justify-between">
+                    <div>
+                        <p class="text-white text-[20px] font-[500]">Windframe Full Page Templates</p>
+                    </div>
+                    <div class="mt-2 sm:mt-0">
+                        <p class="text-white text-[16px] cursor-pointer hover:border-b hover:border-white">View All ⇾
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="grid sm:grid-cols-[1fr_1fr] md:grid-cols-[1fr_1fr_1fr] lg:grid-cols-[1fr_1fr_1fr_1fr] gap-x-3 mt-6">
+                    <div class="h-[450px] w-full rounded-lg cursor-pointer overflow-hidden bg-white">
+                        <div>
+                            <img class="w-full h-full object-contain bg-top bg-cover" src="./image/full1.jpeg" alt="">
+                        </div>
+                    </div>
+                    <div class="h-[450px] w-full rounded-lg cursor-pointer overflow-hidden bg-white hidden sm:block">
+                        <div>
+                            <img class="w-full h-full object-contain bg-center bg-cover" src="./image/full2.jpeg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="h-[450px] w-full rounded-lg cursor-pointer overflow-hidden bg-black hidden md:block">
+                        <div>
+                            <img class="w-full h-full object-contain bg-center bg-cover" src="./image/full3.jpeg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="h-[450px] w-full rounded-lg cursor-pointer overflow-hidden bg-white hidden lg:block">
+                        <div>
+                            <img class="w-full h-full object-contain bg-center bg-cover" src="./image/full4.jpeg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Windframe Full Page Templates section end -->
+
+    <!-- Tutorials section start -->
+    <section class="w-full flex justify-center mt-28">
+        <div class="w-[95%] lg:w-[85%]">
+            <div class="text-center flex flex-col items-center">
+                <h1 class="text-white text-[30px] font-[700]">Tutorials</h1>
+                <div class="w-full lg:w-[50%] mt-3">
+                    <p class="text-white text-[16px]">Learn how to use Windframe to create stunning tailwind css web
+                        application by mastering it tools</p>
+                </div>
+            </div>
+            <div class="w-full flex flex-col lg:flex-row justify-between gap-y-6 mt-9">
+                <div class="w-full lg:w-[32%]">
+                    <iframe class="w-full h-[60vw] lg:h-[240px] rounded-xl"
+                        src="https://www.youtube.com/embed/JsFGpTuwezU?si=i70r49Y-K2aP4KMx" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="w-full text-white text-[16px] md:text-[20px] font-[500] mt-3">How to add elements in
+                        Windframe</p>
+                </div>
+                <div class="w-full lg:w-[32%]">
+                    <iframe class="w-full h-[60vw] lg:h-[240px] rounded-xl"
+                        src="https://www.youtube.com/embed/48VBbmYH6PA?si=Jr40S4GZa5hpikDR" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="w-full text-white text-[16px] md:text-[20px] font-[500] mt-3">How to import templates and
+                        components in Windframe</p>
+                </div>
+                <div class="w-full lg:w-[32%]">
+                    <iframe class="w-full h-[60vw] lg:h-[240px] rounded-xl"
+                        src="https://www.youtube.com/embed/oWbUrAdAr3s?si=-unU6VA-4sNGIt21" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p class="w-full text-white text-[16px] md:text-[20px] font-[500] mt-3">How to add and reuse your
+                        custom templates in Windframe</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Tutorials section end -->
+
+    <!-- user reviews section start -->
+    <section class="w-full flex justify-center mt-40 md:mt-52">
+        <div class="w-[95%] md:w-[90%] lg:w-[85%]">
+            <div>
+                <h1 class="text-white text-[30px] font-[700] text-center">What some users are saying</h1>
+            </div>
+            <div class="w-full flex flex-col md:flex-row justify-between items-center mt-7">
+
+                <div class="w-full md:w-[45%]">
+                    <div class="bg-[#111827] rounded-xl text-white px-6 py-8">
+                        <p class="text-[16px] leading-[24px] md:text-[20px] md:leading-[28px]">“As a backend developer
+                            windframe has been a huge saver. I was looking for something like this to prototype a lot of
+                            my designs as I am not a very good frontend developer.
+                            I literally just design on windframe now and export the designs to use in my React Code. To
+                            be able to to do that has just been fantastic for my work”</p>
+                        <p
+                            class="text-[16px] leading-[24px] md:text-[20px] md:leading-[28px] font-[600] mt-6 text-[#a0a7b8]">
+                            Anthony
+                            C.</p>
+                    </div>
+                </div>
+
+                <div class="w-full md:w-[45%] mt-16 md:mt-0">
+                    <div class="bg-[#111827] rounded-xl text-white px-6 py-8">
+                        <p class="text-[16px] leading-[24px] md:text-[20px] md:leading-[28px]">“Awesome! Just got a pro
+                            subscription and I am quite surprised to find that this is actually quite advanced. There
+                            are lots of settings for you to adjust margin, padding, fonts background colors etc. super
+                            cool :) and I love the fact that I can plonk my cloudinary url in, such a time saver”</p>
+                        <p
+                            class="text-[16px] leading-[24px] md:text-[20px] md:leading-[28px] font-[600] mt-6 text-[#a0a7b8]">
+                            Linda M.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- user reviews section end -->
+
+    <!-- windframe section start -->
+    <section class="w-full flex justify-center mt-32">
+        <div class="w-[95%] lg:w-[85%] text-center">
+            <p class="text-[#a0a7b8]">Create beautiful websites, prototypes and designs using an intuitve editor and
+                builder</p>
+            <h2 class="text-white text-[30px] leading-[36px] lg:text-[48px] lg:leading-[48px] mt-4">Start visually
+                creating webpages <br class="hidden lg:block"> using windframe</h2>
+            <button class="px-8 py-3 rounded-xl bg-white text-[16px] md:text-[18px] text-black font-[700] mt-5">Start
+                creating for free</button>
+        </div>
+    </section>
+    <!-- windframe section end -->
+
+    <!-- input section start -->
+    <section class="w-full flex justify-center mt-20">
+        <div class="w-[95%] lg:w-[85%]">
+            <div class="text-[#a0a7b8]">
+                <p>Subscribe to our Newsletter</p>
+                <p>Get notified first when we release new updates, tools and resources</p>
+            </div>
+            <div class="flex mt-5">
+                <input
+                    class="py-1 px-4 bg-[#1F2937] rounded-md border-[#374151] border-[1px] w-full lg:w-[30%] h-9 md:h-12 text-white"
+                    type="text" name="" id="">
+                <button
+                    class="py-2.5 px-5 text-white font-[700] bg-[#1F2937] ml-2 rounded-md text-sm md:text-base h-9 md:h-12">Join</button>
+            </div>
+        </div>
+    </section>
+    <!-- input section start -->
+
+    <!-- footer section start -->
+    <section class="w-full flex justify-center mt-2 mb-6">
+        <div class="w-[95%] lg:w-[85%] flex flex-col lg:flex-row justify-between gap-y-8">
+            <div class="w-full lg:w-[30%] p-5">
+                <div class="flex items-center">
+                    <img class="w-[56px] h-[60px]" src="./image/logo.png" alt="">
+                    <p class="text-white text-[18px] font-[600] ml-6">Windframe</p>
+                </div>
+                <p class="text-[#a0a7b8] text-[14px] font-[500] mt-2">Visually build Tailwind CSS UIs 10x faster using AI</p>
+                <p class="text-[#a0a7b8] text-[14px] mt-4">© Winframe 2024, All rights Reserved.</p>
+            </div>
+            
+            <div class="flex w-full lg:w-[50%]">
+                <div class="p-5 flex flex-col gap-y-4 w-[50%] items-center lg:items-start">
+                    <h3 class="text-white text-[20px] font-[700]">Windframe</h3>
+                    <p><a class="text-[#a0a7b8] text-[16px]" href="#">Affiliates</a></p>
+                    <p><a class="text-[#a0a7b8] text-[16px]" href="#">Contact Us</a></p>
+                    <p><a class="text-[#a0a7b8] text-[16px]" href="#">Blog</a></p>
+                </div>
+
+                <div class="p-5 flex flex-col gap-y-4 w-[50%] items-center lg:items-start">
+                    <h3 class="text-white text-[20px] font-[700]">Help</h3>
+                    <p><a class="text-[#a0a7b8] text-[16px]" href="#">Support</a></p>
+                    <p><a class="text-[#a0a7b8] text-[16px]" href="#">Sign up</a></p>
+                    <p><a class="text-[#a0a7b8] text-[16px]" href="#">Sign In</a></p>
+                </div>
+
+                <div class="p-5 flex flex-col gap-y-4 w-[50%] items-center lg:items-start">
+                    <h3 class="text-white text-[20px] font-[700]">Legal</h3>
+                    <p><a class="text-[#a0a7b8] text-[16px]" href="#">Privacy and Security</a></p>
+                    <p><a class="text-[#a0a7b8] text-[16px]" href="#">Terms of Service</a></p>
+                </div>
+            </div>
+
+            <div class="p-5 flex flex-col gap-y-4 items-center lg:items-start">
+                <h3 class="text-white text-[20px] font-[700]">Social media</h3>
+                <ul class="flex flex-row gap-x-3">
+                    
+                    <li class="h-10 w-10 bg-gray-100 dark:bg-gray-400 rounded-full hover:bg-gray-200 p-[6px]"><a class="w-full h-full flex justify-center items-center" href="https://www.facebook.com/"><img class="w-[28px] h-[28px]" src="./image/facebook.svg" alt=""></a></li>
+
+                    <li class="h-10 w-10 bg-gray-100 dark:bg-gray-400 rounded-full hover:bg-gray-200 p-[10px]"><a class="w-full h-full flex justify-center items-center" href="https://www.facebook.com/"><img class="w-[28px] h-[28px]" src="./image/twitter.svg" alt=""></a></li>
+
+                    <li class="h-10 w-10 bg-gray-100 dark:bg-gray-400 rounded-full hover:bg-gray-200 p-[7px]"><a class="w-full h-full flex justify-center items-center" href="https://www.facebook.com/"><img class="w-[28px] h-[28px]" src="./image/instagram.svg" alt=""></a></li>
+
+                    <li class="h-10 w-10 bg-gray-100 dark:bg-gray-400 rounded-full hover:bg-gray-200 p-[7px]"><a class="w-full h-full flex justify-center items-center" href="https://www.facebook.com/"><img class="w-[28px] h-[28px]" src="./image/linkedin.svg" alt=""></a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- footer section end -->
+
+    <div class="fixed bottom-5 right-7 w-[60px] h-[60px] bg-white flex items-center justify-center rounded-full cursor-pointer hover:bg-gray-400">
+        <img class="w-[37px] h-auto" src="./image/message.svg" alt="">
+    </div>
+</body>
+
+</html>
